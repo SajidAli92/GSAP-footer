@@ -1,0 +1,68 @@
+#sideScroller{
+    padding: 5vw 0;
+}
+
+#move{
+    display: flex;
+    padding: 1vw 0 ;
+    overflow: hidden;
+}
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding: 5px 1.5vw;
+    transform: translate(-100);
+}
+.marque h1{
+    font-size: 10em;
+    color: white;
+    font-weight: 500;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.social-media-links h6{
+    font-size: 11px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.social-media-links {
+    padding-bottom: 200px;
+}
+
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hover-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    white-space: nowrap;
+    gap: 20px;
+}
+
+.social-link-scroll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
